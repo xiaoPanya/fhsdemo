@@ -1,0 +1,9 @@
+<view wx:if="{{ show }}" catch:touchstart="handleMask" catchtouchmove="noneEnoughPeople" class="mask"></view>
+<view class="main {{ show ? 'show' : '' }} ">
+    <slot></slot>
+    <view wx:if="{{ show }}" class="main-prompt">
+        <view class="main-prompt-content">
+            <slot name="content"></slot>
+        </view>
+    </view>
+</view>

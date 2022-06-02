@@ -1,0 +1,57 @@
+@import "./css/font.wxss";
+@import "./css/oldFont.wxss";
+@import "./css/mailFont.wxss";
+@import "./css/flex.wxss";
+@import "./css/color.wxss";
+@import "./css/size.wxss";
+@import "./css/margin.wxss";
+@import "./css/mc.wxss";
+@import "./css/mcV2.wxss";
+@import "./css/spacing.wxss";
+@import "./css/atom-miniapp.min.wxss";
+:root {
+    --main-color: #006afe;
+    --second-color: #90beff;
+    --big-color: #333333;
+    --normal-color: #666666;
+    --small-color: #999999;
+    --little-color: #cccccc;
+    --limit-color: #f3f4f8;
+    --success-color: #129c00;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --red-color: #ff5858;
+    --size30: 30px;
+    --size24: 24px;
+    --size22: 22px;
+    --size20: 20px;
+    --size18: 18px;
+    --size17: 17px;
+    --size16: 16px;
+    --size14: 14px;
+    --size12: 12px;
+    --size10: 10px;
+    /* 暂时 */
+    --size-l: 16px;
+    --size-m: 15px;
+    --size-s: 14px;
+    --size-xs: 13px;
+    --spacing-xs: 4px;
+    --spacing-s: 8px;
+    --spacing-m: 14px;
+    --spacing-l: 20px;
+    --spacing-xl: 28px;
+    --spacing-xxl: 36px;
+    --color-p: #cccccc;
+    --color-h3: #999999;
+    --color-h2: #666666;
+    --color-h1: #333333;
+    --color-main: #1c83e4;
+    --color-green: #09bb07;
+    --color-error: #d62d0e;
+    --color-orange: orange;
+}
+
+view {
+    /* font-size: var(--size16); */
+}

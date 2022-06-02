@@ -1,0 +1,10 @@
+<view class="post">
+  <image class="img" src="/assets/icon/菜鸟log.png"/>
+  <swiper class="swiper2" easy-function="{{easy_function}}" autoplay="true" interval="3000" duration="500" circular="true" vertical="true">
+        <block wx:for="{{post}}" wx:key="no" wx:for-item="post">
+          <swiper-item>
+              <text class="text">·{{post.text}}</text>
+          </swiper-item>
+        </block>
+  </swiper>
+</view>

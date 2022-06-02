@@ -1,0 +1,19 @@
+<view
+      class="component w_100 border_box flex align_center justify_between {{radius?'radius':''}}" catchtap="onItem"
+>
+      <view class="left flex align_center flex_full" style="flex: 1">
+            <view
+                  class="flex align_center"
+                  wx:if="{{type==='normal'}}"
+            >
+                  <text class="text">{{leftText}}</text>
+            </view>
+      </view>
+      <view class="right flex align_center">
+            <text class="text">{{rightText}}</text>
+            <i
+                  class="icon iconfont icon-revert"
+                  wx:if="{{visibleNavIcon}}"
+            ></i>
+      </view>
+</view>

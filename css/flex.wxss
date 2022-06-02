@@ -1,0 +1,187 @@
+.flex {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex.nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex.justify-start {
+    justify-content: flex-start;
+}
+
+.flex.justify-end {
+    justify-content: flex-end;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+.flex.justify-between {
+    justify-content: space-between;
+}
+
+.flex.justify-around {
+    justify-content: space-around;
+}
+
+.flex.align-start {
+    align-items: flex-start;
+}
+
+.flex.align-end {
+    align-items: flex-end;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.align-stretch {
+    align-items: stretch;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+.fd--column,
+.fd--column-between {
+    display: flex;
+    flex-direction: column;
+}
+
+.fd--column-between {
+    justify-content: space-between;
+}
+
+.fx--between,
+.fx--between-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fx--end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fx--between-center {
+    align-items: center;
+}
+
+.fx--between.align-center {
+    align-items: center;
+}
+
+.fx--around {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.fx--center {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.fy--center.justify-end {
+    justify-content: flex-end;
+}
+
+.fy--center.wrap {
+    flex-wrap: wrap;
+}
+
+.fy--center {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.fxy--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box-size {
+    box-sizing: border-box;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.col-6 {
+    box-sizing: border-box;
+    width: 50%
+}
+
+.col-4 {
+    box-sizing: border-box;
+    width: 33.33%
+}
+
+.col-3 {
+    box-sizing: border-box;
+    width: 25%
+}
+
+.col-2 {
+    box-sizing: border-box;
+    width: 16.66%
+}
+
+.col-1 {
+    box-sizing: border-box;
+    width: 8.33%
+}

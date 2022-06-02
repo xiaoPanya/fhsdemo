@@ -1,0 +1,40 @@
+.imageV2 {
+    background-color: #E6E6E6;
+    width: 90rpx;
+    height: 90rpx;
+}
+.imageV2.small {
+    width: 80rpx;
+    height: 80rpx;
+}
+.imageV2.large {
+    width: 120rpx;
+    height: 120rpx;
+}
+.imageV2.border {
+    border: 1px solid #e5e5e5;
+}
+.imageV2.cicle {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+/** 
+ * 针对 ipad 的屏幕
+ */
+ @media screen and (min-width: 768px) {
+     /** mcV2 */
+    .imageV2 {
+        width: 45px;
+        height: 45px;
+    }
+    .imageV2.small {
+        width: 40px;
+        height: 40px;
+    }
+    .imageV2.large {
+        width: 60px;
+        height: 60px;
+    }
+ }

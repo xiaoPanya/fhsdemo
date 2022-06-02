@@ -1,0 +1,54 @@
+<view class="wrap" bind:touchstart="hind">
+    <loading></loading>
+    <button bind:tap="handle" loading="true">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <CBootPrompt key="save-hint" next="{{true}}" bindhandleScroll='handleScroll' id="CBootPrompt">
+        <BottomToast type='normal' rightText='' leftText="寄件地址存在疫情中风险地区，请先联系客服再下单"></BottomToast>
+        <text slot="content" class="fs-small" style="line-height:14px;">
+            新增全国中高风险疫情地区提示，\r\n寄件省心又安心
+        </text>
+    </CBootPrompt>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+    <button bind:tap="handle">我是一个按钮</button>
+</view>

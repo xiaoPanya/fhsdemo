@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "CBootPrompt":"../../components/CBootPrompt/CBootPrompt",
+    "BottomToast":"../../components/BottomToast/index"
+  }
+}

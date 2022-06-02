@@ -1,0 +1,60 @@
+.main {
+  position: relative;
+  --boot-prompt-margin: -10px;
+  --boot-z-index: 99;
+  --prompt-transform-y: 14px;
+}
+.main.show::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 8px;
+  z-index: 99;
+  box-shadow: 0 0 0 200vh rgba(255, 1, 1, 0.6);
+  background-color: red;
+}
+.main > .main-prompt {
+  position: absolute;
+  z-index: calc(var(--boot-z-index) + 1);
+  border-radius: 5px;
+  background-color: var(--color-white);
+  transform: translateY(calc(var(--prompt-transform-y) * 2));
+  text-align: center;
+}
+.main > .main-prompt > .main-prompt-content {
+  width: 192px;
+  padding: calc(var(--spacing-m)*2) var(--spacing-xl) var(--spacing-m);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main > .main-prompt > .main-prompt-act {
+  border-top: 1px solid var(--color-grey-xs);
+  font-size: var(--size-m);
+  padding: var(--spacing-m);
+  color: var(--color-main, #1C83E4);
+}
+.main > .main-prompt::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-right: calc(var(--prompt-transform-y) / 2) solid transparent;
+  border-bottom: var(--prompt-transform-y) solid var(--color-white);
+  border-left: calc(var(--prompt-transform-y) / 2) solid transparent;
+  position: absolute;
+  left: 20px;
+  top: calc(var(--prompt-transform-y) * -1);
+}
+.mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
